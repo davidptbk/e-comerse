@@ -1,0 +1,26 @@
+{
+    "users": [
+      {
+        "id": "",
+        "role": "admin",
+        "firstName": "nombre",
+        "secondName": "nombre",
+        "lasName": "apellido",
+        "email": "riwi@test.com",
+        "cellPhone": "3218456715",
+        "direction": "calle falsa 123",
+        "gender": "masculino",
+        "password": "riwi2024"
+      }
+    ],
+    "products": [
+      {
+        
+      }
+    ],
+    "categories": [
+      {
+        
+      }
+    ]
+  }
