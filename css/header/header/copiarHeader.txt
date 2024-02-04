@@ -1,0 +1,42 @@
+<!------Cabecera-->
+<header class="head-v-top">
+    <section class="contains-v-top">
+        <a  href="/LandingPage.html" class="logo-up-1"></a>
+        <div class="cpmtains-aC">
+          <div class="Men-AS">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menu-icon">&#9776;</label>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="/redirects/shop.html">shop</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="Meta-aRF">
+                <a href="">Home</a>
+                <a href="/redirects/shop.html">shop</a>
+                <a href="">about</a>
+                <a href="">contact</a>
+            </div>
+        </div>
+        <div class="icons-top1">
+            <div class="login-but btn-1">
+                <span class="material-symbols-outlined">person</span>
+            </div>
+            <div class="corazon-but btn-1">
+                <span class="material-symbols-outlined">favorite</span>
+            </div>
+            <div class="shop-bur btn-1">
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+        </div>
+
+    </section>  
+</header>
+<!------Cabecera-->
+<!------Cabecera-->
+<!------Cabecera-->
+<!------Cabecera-->

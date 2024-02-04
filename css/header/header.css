@@ -1,0 +1,229 @@
+:root{
+--shadow1 : 1px 2px 2px 1px rgba(0, 0, 0, 0.233);
+--total :   black;
+--font1:  'Poppins', sans-serif;
+--hovers: rgb(107,92,255);
+--color4: #6B5CFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Flexs*/
+    width: 100%;
+    height: 100px;
+}
+.contains-v-top{
+    width: 98%;
+    height: 95%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*Flexs*/
+}
+.head-v-top{
+    box-sizing: border-box;
+}
+.logo-up-1{
+    width: 10%;
+    height: 100%;
+    background-image: url(/media/ass-v1/logos/logo2.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.Meta-aRF{
+height: 100%;
+position: absolute;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+}
+.Meta-aRF a{
+    font-family:var(--font1);
+    text-decoration: none;
+    color: var(--total);
+    font-size: 1.3em;
+    margin-left: 10%;
+    transition: 0.2s;
+}
+.Meta-aRF a:hover{
+color: var(--hovers);
+}
+
+.cpmtains-aC{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.icons-top1{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    transition: 0.3s;
+
+}
+.material-symbols-outlined{
+    font-size: 2em;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    color: var(--hovers);
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    box-shadow: var(--shadow1);
+    z-index: 1000;
+}
+
+.mobile-nav a {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--total);
+    transition: 0.2s;
+}
+
+.mobile-nav a:hover {
+    background-color: var(--hovers);
+    color: #fff;
+}
+
+/* Media query para mostrar/ocultar elementos según el ancho de la pantalla */
+@media only screen and (max-width: 768px) {
+
+    .icons-top1 {
+        transition: 0.4s;
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        left: 38%;
+        gap: 20px;
+    }
+    .Meta-aRF{
+        display: none;
+    }
+}
+#menu-icon {
+       font-size: 3em;
+       cursor: pointer;
+       display: block;
+       position: absolute;
+       top: 20px;
+       right: 30px;
+       z-index: 200;   
+       filter: drop-shadow(-2px 2px 5px rgba(0, 0, 0, 0.743));              
+       /*-----------N Sele-s*/
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select:none;
+       user-select:none;
+   }#menu {
+     z-index: 2000000;
+     top: 20px; 
+       display: none;
+       top: 130px;
+       right: 0;
+       margin-right: 12px;
+       box-shadow: 2px 2.1px 2em 1.5px rgba(0, 0, 0, 0.413);
+       border-radius: 5px;
+       width: 200px;
+       z-index: 1900;
+       border-radius: 12px;
+       background-color: rgb(255, 255, 255);
+       backdrop-filter: blur(100px);
+       transition: 0.3s ease;
+       position: absolute;
+        order: 1;
+   }#menu ul {
+       list-style: none;
+       padding: 0;
+       order: 1;
+   }#menu ul li {
+       padding: 10px;
+       text-align: center;
+       order: 1;
+   }#menu ul li a {
+       text-decoration: none;
+       color: #000000;
+       filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.743));
+   }#menu ul li a:hover{
+       color: var(--color4);
+       transition: 0.2s ease;
+       order: 1;
+   }#menu-toggle{
+   display: none;
+   order: 1;
+   }
+   @media (max-width: 768px) {
+    .cont-1{
+        border-radius: 0px;
+        width: 100%;
+    }.cont-1 h1{
+        font-size: 2.5em;
+        margin-left: 20px;
+        justify-content: start;
+    }.meta-links a{
+        display: none;
+    }
+       #menu-toggle:checked + #menu-icon + #menu {
+       display: block;
+       order: 1;
+       z-index: 2000000;
+       }#menu ul li {padding: 10px;}}
+       @media screen and (min-width: 769px) {
+           #menu-icon {
+             display: none;
+             z-index: 20;
+
+           }}
+           .cont-1 a{
+            text-decoration: none;
+            color: #000000;
+        }
+
+    
+        
