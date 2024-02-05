@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+a{
+    color: black;
+}
+
+#imgfondo{
+    position: relative;
+    z-index: 5;
+}
+
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+min-height: 100vh;
+background-image: url(https://i0.wp.com/eju.tv/wp-content/uploads/2020/05/c56ce439-a596-4b85-b719-27de8f8d3aba-1.jpg?fit=1280%2C851&ssl=1);
+background-position: center;
+background-size: cover;
+}
+
+.container{
+position: relative;
+width: 400px;
+border: 2px solid #4833ff;
+border-radius: 5%;
+height: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container h2{
+    font-size: 2.3rem;
+    color: black;
+    text-align: center;
+}
+
+.input_container{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid black;
+}
+
+.input_container label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translate(-50%);
+    color:black;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .6s;
+    font-family: bold; 
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -3px;
+}
+
+.input_container input{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 35px 0 5px;
+    color: #4833ff;
+
+}
+
+.input_container i {
+    position: absolute;
+    color: #4833ff;
+    font-size: 1.6rem;
+    top: 50px;
+    right: 8px;
+}
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input{
+    margin: 3px;
+}
+
+.forget label a{
+    color:black;
+    text-decoration: none;
+    transition: .3s;
+    font-size: .9rem;
+}
+
+.forget label a:hover{
+    text-decoration: underline;
+} 
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #4833ff;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+button:hover{
+    opacity: .9s;
+}
+
+.register{
+    font-size: .8rem;
+    color: #4833ff;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.register p a{
+    text-decoration: none;
+    color: #4833ff;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.register p a:hover{
+    text-decoration: underline;
+}
